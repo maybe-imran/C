@@ -2,7 +2,7 @@
 int fact(int n){
     int i,fact=1;
     for(i=1;i<=n;i++){
-        fact = fact*1;
+        fact = fact*i;
     }
     return fact;
 }
@@ -14,9 +14,9 @@ int main(){
     printf("enter the no of rowss : ");
     scanf("%d",&n);
     for(i=0;i<=n;i++){
-        for(j=i;j<=n;j++){
+        for(j=0;j<=i;j++){
             printf("%d",bino(i,j));
         }
-        printf("\n")
+        printf("\n");
     }
 }
