@@ -17,8 +17,8 @@ int main(){
         }
     }
     if(pos){
-    printf("found at location %d",i+1);
+        printf("found at location %d",i+1);
     }else{
-    printf("not found");
+        printf("not found");
     }
 }

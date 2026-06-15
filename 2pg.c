@@ -17,6 +17,7 @@ int main(){
         for(j=0;j<=i;j++){
             printf("%d",bino(i,j));
         }
+        
         printf("\n");
     }
 }

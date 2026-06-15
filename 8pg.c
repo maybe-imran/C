@@ -10,6 +10,7 @@ int main(){
         scanf("%d",&a[i]);
     }
 
+    
     for(i=0;i<n-1;i++){
         small =  a[i];
         pos = a[i];
