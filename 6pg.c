@@ -1,23 +1,21 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-struct data{
-    int rno;
-    char name[20],add[20];
-    float per;
-}s;
 int main(){
-    FILE *fp;
-    fp =fopen("student.txt","w");
-    printf("enter student details ");
-    printf("enter r no");
-    scanf("%d",&s.rno);
-    printf("enter student name ");
-    scanf("%s",s.name);
-    printf("enter percentage : ");
-    scanf("%f",&s.per);
-    fprintf(fp,"%d\n%s\n%f",s.rno,s.name,s.per);
-    printf("recorded");
-    fclose(fp);
+    FILE * fp;
+    fp=fopen("oddfile.txt","w");
+    fp=fopen("evenfile.txt","w");
+    int i,n;
+    printf("enter the range");
+    scanf("%d",&n);
 
+    for(i=0;i<n;i++){
+        if(i%2==0){
+            fprintf(evenfile,"%d\t",i);
+        }else{
+            fprintf(oddfile,"%d\t",i);
+        }
+    }
+    fclose(evenfile);
+    fclose(oddfile);
 }
