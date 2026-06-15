@@ -12,6 +12,7 @@ int main(){
     int n;
     printf("enter no of diskz ");
     scanf("%d",&n);
+    
     tow(n,'a','b','c');
     // return;
 }

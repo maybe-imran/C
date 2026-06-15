@@ -7,6 +7,7 @@ struct data{
     float per;
 }s;
 int main(){
+    
     FILE *fp;
     fp =fopen("student.txt","w");
     printf("enter student details ");

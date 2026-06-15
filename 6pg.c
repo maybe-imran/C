@@ -6,6 +6,7 @@ int main(){
     fp=fopen("oddfile.txt","w");
     fp=fopen("evenfile.txt","w");
     int i,n;
+    
     printf("enter the range");
     scanf("%d",&n);
 
